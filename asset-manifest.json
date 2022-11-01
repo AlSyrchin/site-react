@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/site-react/static/css/main.049f15d5.css",
+    "main.js": "/site-react/static/js/main.c70e0892.js",
+    "static/media/tropical.jpg": "/site-react/static/media/tropical.91df69ea2f88cb19c244.jpg",
+    "index.html": "/site-react/index.html",
+    "main.049f15d5.css.map": "/site-react/static/css/main.049f15d5.css.map",
+    "main.c70e0892.js.map": "/site-react/static/js/main.c70e0892.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.049f15d5.css",
+    "static/js/main.c70e0892.js"
+  ]
+}
