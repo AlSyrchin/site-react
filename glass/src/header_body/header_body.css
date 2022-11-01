@@ -1,0 +1,162 @@
+.header-contaner {
+  min-height: 100vh;
+  background: url('tropical.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  background: rgba(73, 73, 73, 0.192);
+  backdrop-filter: blur(15px);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.4), 0 10px 10px rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  padding: 60px;
+  margin: 60px;
+}
+
+
+.contener_row {
+  display: flex;
+  flex-direction: row;
+}
+
+.box_left {
+  flex-basis: 50%;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.box_left h2 {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 10%;
+}
+
+.box_left h3 {
+  font-size: 3rem;
+  margin-bottom: 10%;
+}
+
+.box_under-left p {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.box_under-left span {
+  font-weight: bold;
+}
+
+
+.box_right {
+  flex-basis: 50%;
+  color: #fff;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.menu {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10%;
+}
+
+.menu__logo {
+  margin: 0;
+  max-width: 200px;
+  height: auto;
+}
+
+.menu__title {
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.menu__title li {
+  margin-right: 5%;
+}
+
+.menu__title li:last-child {
+  margin-right: 0;
+}
+
+.menu__title li a {
+  color: #fff;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+}
+
+
+.iconNet {
+  list-style: none;
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+  margin: 0;
+}
+
+.iconNet li {
+  margin-right: 10%;
+}
+
+.iconNet li:last-child {
+  margin: 0;
+}
+
+.iconNet li a {
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 1000px) {
+  .wrapper {
+    padding: 40px;
+    margin: 0;
+  }
+
+  .menu {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu__logo {
+    margin-bottom: 20px;
+  }
+
+  .menu__title {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .menu__title li {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .btn_head {
+    padding: 15px 90px;
+  }
+
+  .contener_row {
+    flex-direction: column;
+  }
+
+  .box_under-left {
+    margin: 0 auto;
+  }
+
+  .box_right {
+    visibility: hidden;
+  }
+}

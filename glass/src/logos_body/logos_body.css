@@ -1,0 +1,48 @@
+.contaner_green {
+  background: linear-gradient(90deg, rgb(28, 130, 46),rgb(68, 209, 79));
+  padding: 80px;
+  color: #fff;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.contaner_green_right {
+  flex-basis: 50%;
+  display: flex;
+  align-items: center;
+}
+.waprs_logo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 10%;
+}
+.logo_eco {
+  max-width: 230px;
+  height: auto;
+}
+
+.contaner_green_left {
+  flex-basis: 50%;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+}
+.contaner_green_left p{
+  display: block;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+@media (max-width: 1000px) {
+  .contaner_green{
+    flex-direction: column;
+  }
+  .contaner_green_left {
+    padding-bottom: 0;
+  }
+  .logo_eco {
+    max-width: 140px;
+  }
+}

@@ -1,0 +1,90 @@
+.shoper{
+  position: fixed;
+  height: 60px;
+  width: 60px;
+  top: 0;
+  left: calc(100% - 60px);
+  z-index: 2;
+
+  background: rgba(205, 205, 205, 0.192);
+  backdrop-filter: blur(15px);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.4), 0 10px 10px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.shoper img{
+  max-width: 30px;
+  height: auto;
+}
+
+.shoper2{
+  position: fixed;
+  height: 100%;
+  width: 300px;
+  left: calc(100% - 300px);
+  z-index: 2;
+
+  background: rgba(205, 205, 205, 0.192);
+  backdrop-filter: blur(15px);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.4), 0 10px 10px rgba(0, 0, 0, 0.4);
+  padding: 20px;
+
+  text-align: center;
+  color: #fff;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.on{
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(0%);
+  transition-delay: 0.2s;
+  transition: all 0.3s;
+}
+.off{
+  opacity: 0;
+  visibility: hidden;
+  transition-delay: 0.2s;
+  transform: translateX(100%);
+  transition: all 0.3s;
+}
+.price_item{
+  width: 100%;
+  text-align: left;
+}
+.price_summ{
+  width: 100%;
+  text-align: left;
+}
+.price_summ2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-bottom: 10px;
+}
+.price_summ2 div{
+  flex: 1;
+  height: 1px;
+  border-bottom: 1px dashed #fff;
+  position: relative;
+  top: -5px;
+  margin: 0 7px;
+}
+.price_summ button{
+  width: 100%;
+}
+
+.item_line{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 2px dotted #fff;
+}

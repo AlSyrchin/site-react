@@ -1,0 +1,90 @@
+.contaner_comment {
+  background: linear-gradient(90deg, rgb(17, 25, 25), #21292b);
+  color: #fff;
+  padding: 40px;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.comment__all {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 30px;
+}
+
+.btn_comm {
+  width: 200px;
+  height: 50px;
+  border-radius: 15px;
+  margin: 0 auto;
+  padding: 12px;
+}
+
+
+.card_comment {
+  background: rgb(40, 168, 44);
+  border-radius: 10px;
+  width: 500px;
+  height: 220px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.card_comment img {
+  flex-basis: 20%;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 20px;
+}
+
+.card_comment_text {
+  margin: 0 20px;
+  flex-basis: 80%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+}
+
+/* Slider */
+.slider {
+  position: relative;
+  width: 80%;
+  height: 220px;
+  margin: auto;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.slider-img {
+  position: absolute;
+  width: 100%;
+  transition: all 0.2s;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider-img-prev {
+  transform: translateX(-101%);
+}
+
+.slider-img-next {
+  transform: translateX(101%);
+}

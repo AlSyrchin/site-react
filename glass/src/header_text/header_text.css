@@ -1,0 +1,25 @@
+.head_text{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+
+  position: relative;
+  z-index: 1;
+}
+.head_text h2{
+  font-size: 3rem;
+}
+.head_text p{
+  max-width: 600px;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+.head_text span{
+  display: block;
+  height: 2px;
+  width: 400px;
+  background: #fff;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
